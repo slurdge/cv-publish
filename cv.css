@@ -1,0 +1,124 @@
+@import 'reset.css';
+@import 'font-awesome/css/all.css';
+@import 'font-google/css/all.css';
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;   
+    width: 827px;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 10px 10px 10px 10px;
+    line-height: 150%;
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h1, h2, h3 {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 3.5em;
+    float: left;
+    width: 40%;
+    margin-top: 0.0em;
+    display: inline-block;
+    line-height: 130%;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h1+div {
+    margin-top: 0.2em;
+    margin-bottom: 0.7em;
+    float:right;
+    right: 0px;
+    display: inline-block;
+    text-align: right;
+    border-right: 0.5em #3e87a3 solid;
+    padding-right: 0.5em;
+    line-height: 150%;
+}
+
+blockquote {
+    text-align: justify;
+}
+
+dd p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2 {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2>i.fa {
+    width: 2em;
+    margin-left: -2.2em;
+    text-align: right;
+}
+
+a {
+    border: 2px solid #3e87a3;
+    color: #3e87a3;
+    border-radius: 5px;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+a:hover {
+    background-color: #3e87a3;
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    background-color: #c84c09;
+    height: 8px;
+    display: block;
+    border: none;
+    margin: 0px;
+    clear: both;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+dl {
+    font-weight: 600;
+}
+
+dd {
+    font-weight: normal;
+}
+
+dl {
+    border-left: 8px solid #3e87a3;
+    padding-left: 0.5em;
+    margin-top: 0.5em;
+    margin-left: 0.2em;
+}
+
+@media print {
+    body {
+       width: 90%;
+    }
+
+    a {
+       background-color: #3e87a3;
+       color: white;
+       text-decoration: none;
+    }
+}
